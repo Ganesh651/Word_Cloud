@@ -17,6 +17,7 @@ errorPara.style.fontSize = "14px"
 colContainer.appendChild(errorPara);
 
 let inputEl = document.createElement("input");
+inputEl.type = "text"
 inputEl.classList.add("form-control","border-dark","w-100");
 colContainer.appendChild(inputEl);
 
